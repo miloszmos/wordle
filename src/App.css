@@ -1,0 +1,46 @@
+.board {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.letter {
+  margin: 3px;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  background-color: #fefefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.letter.green {
+  background-color: green;
+}
+
+.letter.orange {
+  background-color: orange;
+}
+
+.input-section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-section button {
+  margin-left: 10px;
+}
+
+.solution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
